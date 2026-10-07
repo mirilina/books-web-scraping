@@ -27,9 +27,28 @@
 
 ---
 
+## Визуализация
+
+![Распределение цен и цены по рейтингу](./images/price_distribution.png)
+
+![Количество товаров по рейтингу](./images/rating_counts.png)
+
+---
+
+## Как запустить
+
+```bash
+pip install -r requirements.txt
+jupyter notebook BeautifulSoup.ipynb
+```
+
+---
+
 ## Структура проекта
 
 * `BeautifulSoup.ipynb` — Jupyter Notebook с полным циклом сбора, очистки и визуализации данных.
+* `images/` — графики из ноутбука.
+* `requirements.txt` — зависимости проекта.
 * `README.md` — описание и методология решения.
 
 ---
